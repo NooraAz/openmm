@@ -113,8 +113,8 @@ There are several variables that can be adjusted in the CMake interface:
   and OPENCL_LIBRARY to point to the library (usually /usr/local/cuda/lib64/libOpenCL.so
   on Linux).  
 
-Configure (press “c”) again.  Adjust any variables that cause an error.
-
+After the configuration is done, press "e" to exit the configuration interface. 
+Then configure (press “c”) again.  Adjust any variables that cause an error.
 Continue to configure (press “c”) until no starred CMake variables are
 displayed, then press “g” to generate the makefiles for building the project.
 
